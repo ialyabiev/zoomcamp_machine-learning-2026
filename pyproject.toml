@@ -1,0 +1,23 @@
+[project]
+name = "zoomcamp-machine-learning-2026"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Igor Alyabiev", email = "2842172+ialyabiev@users.noreply.github.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "jupyter>=1.1.1",
+    "numpy>=2.5.3",
+    "pandas>=3.0.6",
+    "scikit-learn>=1.9.1",
+    "seaborn>=0.13.2",
+]
+
+[project.scripts]
+zoomcamp-machine-learning-2026 = "zoomcamp_machine_learning_2026:main"
+
+[build-system]
+requires = ["uv_build>=0.12.3,<0.13.0"]
+build-backend = "uv_build"
